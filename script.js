@@ -8,7 +8,7 @@ function isBirthDateLucky(){
   const date= dateOfBirth.value;
   const sum = calculateSum(dateOfBirth.value);
   if(sum%luckyNumber.value === 0){
-    outputBox.innerText = "Your birthday is Lucky!";
+    outputBox.innerText = "Yayy!! Your birthday is Lucky! 🎉";
   } else{
     outputBox.innerText = "Your birthday is NOT Lucky!";
   }
